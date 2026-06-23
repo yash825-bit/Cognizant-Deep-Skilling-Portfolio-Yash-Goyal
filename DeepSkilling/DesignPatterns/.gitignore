@@ -1,0 +1,5 @@
+#java compiled files
+*.class
+
+#vs code settings
+.vscode/
