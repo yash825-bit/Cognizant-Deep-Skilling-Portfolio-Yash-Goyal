@@ -1,17 +1,9 @@
 import factory_method_pattern.FactoryDemo;
+import singleton_pattern.SingletonDemo;
 public class App {
     public static void main(String[] args) throws Exception {
-        // Singleton obj1 = Singleton.getInstance();
-        // Singleton obj2 = Singleton.getInstance();
-
-
-        // obj1.display();
-
-        // if (obj1 == obj2) {
-        //     System.out.println("Both references point to the same object");
-        // } else {
-        //     System.out.println("Different objects created");
-        // }
-        FactoryDemo.run();
+        
+        SingletonDemo.run();
+        //FactoryDemo.run();
     }
 }
