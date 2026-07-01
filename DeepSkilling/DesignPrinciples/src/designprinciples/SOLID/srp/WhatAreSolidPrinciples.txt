@@ -13,3 +13,8 @@ SOLID stands for:
 1. Single Responsibility Principle(SRP) :- A class should have only one reason to change meaning it
 											should have only one job or responsibility.
 			
+2. Open Close Principle(OCP) :- Software entities should be open for extension but closed for modification.
+
+3. Liskov's Substituion Principle(LSP) :- A subsclass should be substitutable for it's superclass without breaking
+											or changing the expected behaviour of the program.
+											
