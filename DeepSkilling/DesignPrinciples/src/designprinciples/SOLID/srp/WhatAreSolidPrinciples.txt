@@ -17,4 +17,6 @@ SOLID stands for:
 
 3. Liskov's Substituion Principle(LSP) :- A subsclass should be substitutable for it's superclass without breaking
 											or changing the expected behaviour of the program.
-											
+						
+4. Interface Seggregation Principle(ISP) :- A class should not be forced to implement interfaces it does not used.
+					

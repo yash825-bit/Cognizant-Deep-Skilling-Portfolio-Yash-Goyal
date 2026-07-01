@@ -1,4 +1,4 @@
-package designprinciples.SOLID.srp.beforeSRP;
+package designprinciples.SOLID.srp.before;
 
 import java.io.FileWriter;
 import java.io.IOException;

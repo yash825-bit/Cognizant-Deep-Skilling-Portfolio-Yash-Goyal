@@ -1,4 +1,4 @@
-package designprinciples.SOLID.srp.afterSRP;
+package designprinciples.SOLID.srp.after;
 
 public class Main {
 

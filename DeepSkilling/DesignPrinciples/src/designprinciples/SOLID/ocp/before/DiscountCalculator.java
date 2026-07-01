@@ -1,4 +1,4 @@
-package designprinciples.SOLID.ocp.beforeOCP;
+package designprinciples.SOLID.ocp.before;
 
 public class DiscountCalculator {
 	

@@ -1,0 +1,9 @@
+To make sure class Robot is not being force to implement unwanted methods from a worker
+interface again we seggregate the Worker interface into two Separate intefaces.
+
+1-Workable : For those who can work
+2-Eatable : For those who can eat
+
+Note-Since, humans do both work and eat we can implement both the interfaces in human class using
+multiple inheritance.
+2-and, for robots they do not eat so we can implement workable interface in that class.
