@@ -1,0 +1,15 @@
+What are SOLID Principles?
+->The SOLID principles are a set of design principles intented to make software design more
+  simple and easy to understand.
+->Introduced by Robert C.Martin and widely used as for good Object Oriented Design and Programming.
+
+SOLID stands for:
+1. Single Responsibility Principle.
+2. Open Closed Princile.
+3. Liskov's Substitution Principle.
+4. Interface Seggregation Principle.
+5. Dependency Inversion Principle.
+
+1. Single Responsibility Principle(SRP) :- A class should have only one reason to change meaning it
+											should have only one job or responsibility.
+			
