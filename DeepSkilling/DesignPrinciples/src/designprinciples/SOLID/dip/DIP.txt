@@ -1,0 +1,22 @@
+What are dependencies?
+A dependency is something a class need in order to do its work.
+
+
+High Level Modules :- Contains the business logic
+
+Car
+OrderService
+PaymentService
+NotificationService
+EmployeeManager
+
+Low Level Modules :- Contains Implementation Details
+
+Engine
+MySQL
+MongoDB
+EmailSender
+Stripe API
+Printer
+Keyboard
+

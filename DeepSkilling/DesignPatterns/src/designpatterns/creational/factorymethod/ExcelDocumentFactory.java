@@ -1,5 +1,10 @@
 package designpatterns.creational.factorymethod;
 
-public class ExcelDocumentFactory {
+public class ExcelDocumentFactory extends DocumentFactory {
 
+	@Override
+	public Document createDocument() {
+		
+		return new PdfDocument();
+	}
 }

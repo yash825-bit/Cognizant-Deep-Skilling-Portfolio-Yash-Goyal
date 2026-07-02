@@ -19,4 +19,7 @@ SOLID stands for:
 											or changing the expected behaviour of the program.
 						
 4. Interface Seggregation Principle(ISP) :- A class should not be forced to implement interfaces it does not used.
-					
+
+5. Dependency Inversion Principle(DIP) :- High level modules should not depend on Low level modules. Both should depend
+											on abstractions and,
+											Abstraction should not depend on details.Details should depend on abstraction.				
