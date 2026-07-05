@@ -2,25 +2,24 @@ SET SERVEROUTPUT ON;
 
 BEGIN
 
-    FOR loan IN (
-
+    FOR loan IN
+    (
         SELECT LoanID,
                CustomerID,
-               DueDate
+               EndDate
         FROM Loans
-        WHERE DueDate BETWEEN SYSDATE AND SYSDATE + 30
-
+        WHERE EndDate <= SYSDATE + 30
     )
 
     LOOP
 
         DBMS_OUTPUT.PUT_LINE(
-            'Reminder: Customer ID '
+            'Reminder: Customer '
             || loan.CustomerID
-            || ' has Loan ID '
+            || ' has Loan '
             || loan.LoanID
             || ' due on '
-            || TO_CHAR(loan.DueDate, 'DD-MON-YYYY')
+            || TO_CHAR(loan.EndDate, 'DD-MON-YYYY')
         );
 
     END LOOP;
