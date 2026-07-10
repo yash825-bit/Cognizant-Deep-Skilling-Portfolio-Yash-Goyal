@@ -1,4 +1,4 @@
-package com.mockitotesting.basic;
+package com.mockitotesting.exercise01and02;
 
 public class MyService {
 

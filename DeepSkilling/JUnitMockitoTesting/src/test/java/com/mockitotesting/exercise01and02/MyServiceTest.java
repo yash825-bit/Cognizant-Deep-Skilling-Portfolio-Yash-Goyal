@@ -1,4 +1,4 @@
-package com.mockitotesting.basic;
+package com.mockitotesting.exercise01and02;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -26,6 +26,17 @@ public class MyServiceTest {
 
         Assert.assertEquals("mock data", result);
 
+    }
+    @Test
+    public void verifyTestInteraction() {
+
+        ExternalApi mockApi = mock(ExternalApi.class);
+
+        MyService service = new MyService(mockApi);
+
+        service.fetchData();
+
+        verify(mockApi).getData();
     }
 }
 
