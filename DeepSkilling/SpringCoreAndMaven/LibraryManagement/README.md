@@ -305,3 +305,44 @@ Because `spring-context` includes the IoC container
 -   Loaded the Spring IoC container.
 -   Retrieved a bean using `ApplicationContext`.
 -   Understood the basics of IoC and bean management.
+
+# LibraryManagement - Exercise 2: Implementing Dependency Injection
+
+## Objective
+
+Learn Spring Dependency Injection (DI) using Setter Injection and XML.
+
+## Key Concepts
+
+-   Dependency
+-   Dependency Injection (DI)
+-   Wiring
+-   Setter Injection
+-   IoC vs DI
+-   Tight vs Loose Coupling
+
+## XML Wiring
+
+``` xml
+<bean id="bookRepository" class="com.library.repository.BookRepository"/>
+<bean id="bookService" class="com.library.service.BookService">
+    <property name="bookRepository" ref="bookRepository"/>
+</bean>
+```
+
+## How Spring Works
+
+Spring creates both beans and internally calls:
+
+``` java
+service.setBookRepository(repository);
+```
+
+## Interview Points
+
+-   DI: Spring supplies dependencies.
+-   Wiring: Connecting beans.
+-   Setter Injection: Injection through setter methods.
+-   `name`: Property to inject.
+-   `ref`: Bean id to inject.
+-   Loose coupling improves maintainability and testing.
