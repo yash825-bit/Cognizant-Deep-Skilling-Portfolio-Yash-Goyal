@@ -10,7 +10,7 @@ public class Main {
 
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        //Retrieving a Bean
+        //Retrieving a Bean through book Service
         BookService service = context.getBean("bookService", BookService.class);
 
         //Calling the bean's method
