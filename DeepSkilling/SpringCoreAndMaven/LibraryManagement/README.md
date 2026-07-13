@@ -346,3 +346,69 @@ service.setBookRepository(repository);
 -   `name`: Property to inject.
 -   `ref`: Bean id to inject.
 -   Loose coupling improves maintainability and testing.
+
+# LibraryManagement – Exercise 3: Spring AOP (Aspect-Oriented Programming)
+
+## Objective
+Learn Spring AOP using XML configuration to separate cross-cutting concerns (logging) from business logic.
+
+## Dependencies
+- spring-context
+- spring-aop
+- aspectjweaver
+
+## What We Did
+1. Added Spring AOP dependencies.
+2. Created LoggingAspect.
+3. Registered BookRepository, BookService and LoggingAspect as Spring beans.
+4. Enabled XML AOP using <aop:config>.
+5. Declared an aspect with <aop:aspect>.
+6. Created a pointcut:
+   execution(* com.library.service.BookService.*(..))
+7. Added a before advice calling logExecutionTime().
+
+## Key Concepts
+### AOP
+Separates cross-cutting concerns (logging, security, transactions, auditing) from business logic.
+
+### Aspect
+A class containing cross-cutting logic.
+
+### Advice
+Code executed at a join point. Types: Before, After, After Returning, After Throwing, Around.
+
+### Join Point
+A point where advice can execute. In Spring AOP this is method execution.
+
+### Pointcut
+Expression selecting which methods are intercepted.
+
+### Proxy
+Spring creates a proxy around the target bean, executes advice, then invokes the original method.
+
+Flow:
+Main -> Spring Proxy -> LoggingAspect -> BookService
+
+## XML Elements
+- <aop:config> : Enables XML AOP.
+- <aop:aspect> : Declares an aspect bean.
+- <aop:pointcut> : Defines matching methods.
+- <aop:before> : Executes advice before the matched method.
+
+## Common Errors
+- Missing aspectjweaver -> NoClassDefFoundError: org.aspectj.lang.JoinPoint.
+- Putting <aop:config> inside a <bean>.
+- Invalid pointcut expression.
+
+## Interview Questions
+- What is AOP?
+- What is an Aspect?
+- Difference between Advice and Pointcut?
+- What is a Join Point?
+- Why is AspectJ Weaver required?
+- How does Spring AOP work internally? (Using proxies.)
+
+## Key Takeaways
+- Implemented XML-based Spring AOP.
+- Learned aspects, advice, pointcuts, join points and proxies.
+- Understood how Spring intercepts method calls using proxies.
