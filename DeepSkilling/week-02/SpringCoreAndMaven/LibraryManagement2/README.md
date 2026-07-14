@@ -68,7 +68,7 @@ validate → compile → test → package → verify → install → deploy
 4. Downloads plugins
 5. Updates IntelliJ classpath
 
-## Interview Questions
+## Things I covered
 - What is Maven?
 - What is pom.xml?
 - What is a dependency?
