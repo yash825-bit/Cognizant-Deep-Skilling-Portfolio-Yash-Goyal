@@ -3,7 +3,7 @@
 ## Objective
 Learn how to create and configure a standard Maven project with Spring dependencies.
 
-## What We Did
+## What I Did
 - Created a Maven Quickstart project.
 - Changed groupId to `com.library`.
 - Configured the package as `com.library`.
