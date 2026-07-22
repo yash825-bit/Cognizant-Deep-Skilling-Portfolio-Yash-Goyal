@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DeepSkilling/week-01/DataStructuresAndAlgorithms/DataStructuresAndAlgorithms.iml" filepath="$PROJECT_DIR$/DeepSkilling/week-01/DataStructuresAndAlgorithms/DataStructuresAndAlgorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DeepSkilling/week-01/DesignPatterns/DesignPatterns.iml" filepath="$PROJECT_DIR$/DeepSkilling/week-01/DesignPatterns/DesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DeepSkilling/week-01/DesignPrinciples/DesignPrinciples.iml" filepath="$PROJECT_DIR$/DeepSkilling/week-01/DesignPrinciples/DesignPrinciples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DeepSkilling/week-01/JUnitMockitoTesting/JUnitTesting.iml" filepath="$PROJECT_DIR$/DeepSkilling/week-01/JUnitMockitoTesting/JUnitTesting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DeepSkilling/week-01/PLSQL-BankManagement/PLSQL-BankManagement.iml" filepath="$PROJECT_DIR$/DeepSkilling/week-01/PLSQL-BankManagement/PLSQL-BankManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PortfolioForJavaFSE.iml" filepath="$PROJECT_DIR$/PortfolioForJavaFSE.iml" />
+    </modules>
+  </component>
+</project>
