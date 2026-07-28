@@ -1,11 +1,5 @@
 # Cognizant Deep Skilling Portfolio
 
-Hi, I'm **Yash Goyal**, an aspiring **Java Full Stack Engineer** passionate about designing scalable applications and continuously improving my skills in backend development, frontend development, databases, and software engineering.
-
-This repository documents my journey through the **Cognizant Deep Skilling Program**, where I complete hands-on exercises, practice assignments, mini projects, and maintain notes on the concepts I learn. It serves as both my learning journal and a portfolio showcasing my progress.
-
----
-
 ## 👨‍🎓 Student Information
 
 **Name:** Yash Goyal
@@ -13,6 +7,12 @@ This repository documents my journey through the **Cognizant Deep Skilling Progr
 **Superset ID:** 7826699
 
 **Email:** goyal.yash18335@gmail.com
+
+---
+
+Hi, I'm **Yash Goyal**, an aspiring **Java Full Stack Engineer** passionate about designing scalable applications and continuously improving my skills in backend development, frontend development, databases, and software engineering.
+
+This repository documents my journey through the **Cognizant Deep Skilling Program**, where I complete hands-on exercises, practice assignments, mini projects, and maintain notes on the concepts I learn. It serves as both my learning journal and a portfolio showcasing my progress.
 
 ---
 
