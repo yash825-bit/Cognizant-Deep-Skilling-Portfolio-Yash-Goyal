@@ -4,6 +4,18 @@ Hi, I'm **Yash Goyal**, an aspiring **Java Full Stack Engineer** passionate abou
 
 This repository documents my journey through the **Cognizant Deep Skilling Program**, where I complete hands-on exercises, practice assignments, mini projects, and maintain notes on the concepts I learn. It serves as both my learning journal and a portfolio showcasing my progress.
 
+---
+
+## 👨‍🎓 Student Information
+
+**Name:** Yash Goyal
+
+**Superset ID:** 7826699
+
+**Email:** goyal.yash18335@gmail.com
+
+---
+
 ## 📚 What's in this Repository?
 
 - Hands-on Exercises
@@ -13,9 +25,13 @@ This repository documents my journey through the **Cognizant Deep Skilling Progr
 - Interview Takeaways
 - Code Implementations
 
+---
+
 ## 🚀 Ongoing Learning Journey
 
 This repository is **actively maintained** and is a continuation of my learning journey. New exercises, projects, and notes are added regularly as I progress through the Cognizant Deep Skilling Program and strengthen my understanding of Java Full Stack Development.
+
+---
 
 ## 🛠️ Technologies Covered
 
@@ -31,6 +47,7 @@ This repository is **actively maintained** and is a continuation of my learning 
 - SLF4J
 - Maven
 - Git & GitHub
+- GitLab
 - React
 - MySQL
 - PL/SQL
@@ -40,4 +57,10 @@ More technologies and projects will be added as I continue learning.
 
 ---
 
-⭐ **Work in Progress** — This repository is updated regularly with new exercises, projects, and learning notes as I continue my Java Full Stack development journey.
+## ⭐ Repository Status
+
+**Work in Progress** — This repository is updated regularly with new exercises, projects, and learning notes as I continue my Java Full Stack development journey.
+
+---
+
+Thank you for visiting my repository!
